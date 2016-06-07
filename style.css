@@ -1,0 +1,227 @@
+/* ======================================================================= */
+/* ======================================================================= */
+/* ======================================================================= */
+/* ===== base */
+
+body {
+    font-size: 18px;
+    font-family: Arial;
+    margin: 0 auto;
+    max-width: 700px;
+    line-height: 1.62;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+    line-height: 1.4;
+}
+
+h4 {
+    font-weight: bold;
+}
+
+ul {
+    margin-top: 10px;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+p,
+ul,
+ol,
+.table,
+.superscript-reference {
+    margin-bottom: 25px;
+}
+
+code {
+    font-style: italic;
+}
+
+#pagina-inicial {
+    font-size: 14px;
+    text-align: center;
+    margin-top: -2px;
+    margin-bottom: 0;
+}
+
+#pagina-inicial-hr {
+    margin-top: 5px;
+    margin-bottom: 40px;
+}
+
+
+/* ======================================================================= */
+/* ======================================================================= */
+/* ======================================================================= */
+/* ===== generic classes */
+
+.superscript-reference {
+    list-style-type: none;
+    padding-left: 5px;
+}
+
+.superscript-reference li {
+    font-size: 14px;
+}
+
+.table-text-vertical {
+    line-height: 1.15 !important;
+}
+
+code {
+    white-space: nowrap;
+}
+
+blockquote {
+    font-style: italic;
+}
+
+blockquote blockquote {
+    margin-left: 25px;
+}
+
+.no-style {
+    list-style: none;
+}
+
+.bibliography-book,
+.bibliography-publisher {
+    font-weight: normal;
+}
+
+.bibliography-book {
+    font-style: italic;
+}
+
+
+/* ======================================================================= */
+/* ======================================================================= */
+/* ======================================================================= */
+/* ===== specific pages */
+
+/* ===== home */
+
+#home-title,
+#home-subtitle {
+    line-height: 1;
+}
+
+#home-subtitle {
+    font-style: italic;
+    color: #909090;
+}
+
+.item-separator {
+    margin-top: 50px;
+}
+
+/* ===== centros de convívio multicultural */
+
+#living-and-learning-centers-table td {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+/* ===== o bom aprendiz */
+
+#the-good-esl-teacher-and-student-table td {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+/* ===== sinalizacao-ortografica */
+
+.sinalizacao-ortografica-separator td {
+    padding-bottom: 35px !important;
+}
+
+/* ===== questions */
+
+.questions blockquote {
+    font-style: normal;
+}
+
+
+/* ======================================================================= */
+/* ======================================================================= */
+/* ======================================================================= */
+/* ===== responsive */
+
+/* ===== mobile */
+
+@media (max-width:780px) {
+
+    /* ======================================================================= */
+    /* ======================================================================= */
+    /* ======================================================================= */
+    /* ===== base */
+
+    body {
+        margin: 0 5%;
+    }
+
+
+    /* ======================================================================= */
+    /* ======================================================================= */
+    /* ======================================================================= */
+    /* ===== specific pages */
+
+    /* ===== home */
+
+    #home-title {
+        font-size: 30px;
+    }
+
+    .home-list {
+        padding-left: 0;
+        list-style: none;
+    }
+}
+
+/* ===== standard */
+
+@media (min-width:768px) {
+    
+    /* ======================================================================= */
+    /* ======================================================================= */
+    /* ======================================================================= */
+    /* ===== base */
+
+    body {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+
+    /* ======================================================================= */
+    /* ======================================================================= */
+    /* ======================================================================= */
+    /* ===== generic classes */
+
+    .top-main-quote {
+        color: #8D8D8D;
+        font-size: 20px;
+    }
+
+    /* ======================================================================= */
+    /* ======================================================================= */
+    /* ======================================================================= */
+    /* ===== specific pages */
+
+    /* ===== home */
+
+    #home-subtitle {
+        margin-top: 5px;
+        margin-bottom: 20px;
+        font-style: italic;
+        color: #909090;
+    }
+    
+}
